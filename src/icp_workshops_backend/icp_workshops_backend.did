@@ -1,3 +1,4 @@
 service : {
     "greet": (text) -> (text) query;
+    "calculate": (a: i32, b: i32, operator: text)  -> (text) query;
 }
